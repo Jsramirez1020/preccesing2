@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subir y mostrar imágenes en escala de grises</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <h1 class="fw-light text-white m-0">Subir y mostrar imagenes en escala de grises</h1>
+
+  <form>
+    <div class='file-input' class=" -chosen">
+        <input type="file" id="image-input" accept="image/*" />
+        <span class='btn2'>Choose</span>
+        <span class='label' data-js-label>No file selected
+        </span>
+        <br>
+        <br>
+        <br>
+      <br>
+    <button type="button" id="process-button" class="btn btn-outline-light btn-group">Procesar imagen</button>
+  </form>
+  <br>
+  <br>
+  <br>
+  <div id="image-preview"></div>
+
+  <script src="index.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
